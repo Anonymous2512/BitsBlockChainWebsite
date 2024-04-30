@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Kola-Regular';
   src: 
-       url('../fonts/Kola-Regular.woff') format('woff');
+       url('/fonts/Kola-Regular.woff') format('woff');
        
   font-weight: 400;
   font-display: swap;

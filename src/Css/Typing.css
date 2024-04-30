@@ -18,7 +18,7 @@
 
 .static-text {
     font-family: 'Kola-Regular', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     max-height: 20%;
     margin-bottom: 30px;
     
@@ -43,7 +43,7 @@
     font-family: 'Striper-Regular', sans-serif;
     margin-top: 20px;
     height: 80%;
-    font-size: 4rem;
+    font-size: 3.5rem;
     flex-direction: column;
     white-space: normal;
     color: hsl(209, 98%, 19%);

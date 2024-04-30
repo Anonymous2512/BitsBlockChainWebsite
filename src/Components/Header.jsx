@@ -56,7 +56,7 @@ const Header = () => {
     <li>
         <a>
         <select onChange={handleChange}>
-            <option value="#">Earning Oppurtunities</option>
+            <option value="#">Earning Opportunities</option>
             <option value="https://superteam.fun/">SuperTeam</option>
             <option value="https://jobs.solana.com/jobs">Solana</option>
             <option value="https://polygon.technology/ecosystem-jobs">Polygon</option>

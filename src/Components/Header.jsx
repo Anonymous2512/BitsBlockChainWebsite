@@ -45,6 +45,7 @@ const Header = () => {
                 <img src="/images/logo.png" alt="Logo" className="logo" />
             </div>
             {(windowWidth >= 768) && (
+                <div className='nav-container'>
                 <nav>
                   <ul class='nav-menu'>
     <li><a href="#home" onClick={(e) => smoothScrollToTop(e)}>Home</a></li>
@@ -68,6 +69,7 @@ const Header = () => {
 </ul>
 
                 </nav>
+                </div>
             )}
  {windowWidth < 768 && (
                     <button className="menu-toggle" onClick={toggleMenu}>

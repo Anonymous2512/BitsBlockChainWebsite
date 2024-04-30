@@ -52,11 +52,11 @@ const Header = () => {
     <li><a href="#info" onClick={(e) => smoothScrollToSection(e, 'info')}>Info</a></li>
     <li><a href="#our-team" onClick={(e) => smoothScrollToSection(e, 'our-team')}>Our Team</a></li>
     <li><a href="#contact-us" onClick={(e) => smoothScrollToSection(e, 'contact-us')}>Contact Us</a></li>
-    <li><a href="https://bits-blockchain.notion.site/BITS-Blockchain-Development-Task-1-Frontend-cc11f0969ee84daa8c8df4b1eb780692">Resources</a></li>
+    <li><a href="https://bits-blockchain.notion.site/BITS-Blockchain-Development-Task-1-Frontend-cc11f0969ee84daa8c8df4b1eb780692">Learning Resources</a></li>
     <li>
         <a>
         <select onChange={handleChange}>
-            <option value="#">Earnings</option>
+            <option value="#">Earning Oppurtunities</option>
             <option value="https://superteam.fun/">SuperTeam</option>
             <option value="https://jobs.solana.com/jobs">Solana</option>
             <option value="https://polygon.technology/ecosystem-jobs">Polygon</option>
@@ -84,11 +84,11 @@ const Header = () => {
                         <li><a href="#info"  onClick={(e) => smoothScrollToSection(e, 'info')}>Info</a></li>
                         <li><a href="#our-team" onClick={(e) => smoothScrollToSection(e, 'our-team')}>Our Team</a></li>
                         <li><a href="#contact-us"  onClick={(e) => smoothScrollToSection(e, 'contact-us')}>Contact Us</a></li>
-                        <li><a href="https://bits-blockchain.notion.site/BITS-Blockchain-Development-Task-1-Frontend-cc11f0969ee84daa8c8df4b1eb780692">Resources</a></li>
+                        <li><a href="https://bits-blockchain.notion.site/BITS-Blockchain-Development-Task-1-Frontend-cc11f0969ee84daa8c8df4b1eb780692">Learning Resources</a></li>
     <li>
         <a>
         <select onChange={handleChange}>
-            <option value="#">Earnings</option>
+            <option value="#">Earning Opportunities</option>
             <option value="https://superteam.fun/">SuperTeam</option>
             <option value="https://jobs.solana.com/jobs">Solana</option>
             <option value="https://polygon.technology/ecosystem-jobs">Polygon</option>

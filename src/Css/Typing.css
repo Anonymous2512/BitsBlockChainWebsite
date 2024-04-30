@@ -1,0 +1,100 @@
+@import url('./kola.css');
+@import url('./striper.css');
+
+.parent-container {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+  
+    @media (max-width: 900px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.static-text {
+    font-family: 'Kola-Regular', sans-serif;
+    font-size: 3.5rem;
+    max-height: 20%;
+    margin-bottom: 30px;
+    
+}
+
+.image-column img {
+    width: 100%;
+    height: auto;
+}
+
+.text-column {
+   max-width: 70%;
+    white-space:normal;
+    word-wrap: normal;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+    align-items: center;
+}
+
+.typing-text {
+    font-family: 'Striper-Regular', sans-serif;
+    margin-top: 20px;
+    height: 80%;
+    font-size: 4rem;
+    flex-direction: column;
+    white-space: normal;
+    color: hsl(209, 98%, 19%);
+    overflow-wrap: break-word;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.background-video {
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(4px);
+}
+
+@keyframes typing-static {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes typing-dynamic {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+@media (max-width: 900px){
+  .text-column{
+    height: 400px;
+  }
+}
+@media (max-width: 768px){
+.static-text{
+  font-size: 2rem;
+}
+.typing-text{
+  font-size:2.5rem ;
+}
+.text-column{
+    max-width: 100%;
+}
+}

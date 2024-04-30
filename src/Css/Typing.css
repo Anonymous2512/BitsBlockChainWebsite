@@ -1,5 +1,5 @@
 @import url('./kola.css');
-@import url('./striper.css');
+@import url('../Css/striper.css');
 
 .parent-container {
     display: grid;

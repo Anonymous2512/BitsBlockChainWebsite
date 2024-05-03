@@ -56,7 +56,7 @@ const Header = () => {
     <li><a href="https://www.notion.so/bitsblockchain/Resources-for-blockchain-enthusiasts-d69a20cf5402406cb709dfabe4150c87">Learning Resources</a></li>
     <li>
         <a>
-        <select onChange={handleChange}>
+        <select className="select-menu" onChange={handleChange}>
             <option value="#">Earning Opportunities</option>
             <option value="https://superteam.fun/">SuperTeam</option>
             <option value="https://jobs.solana.com/jobs">Solana</option>

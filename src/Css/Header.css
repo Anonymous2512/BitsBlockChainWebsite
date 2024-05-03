@@ -18,7 +18,9 @@
     width: 100px;
     flex-shrink: 0; 
 }
-
+.nav-container{
+    width:80%;
+}
 .nav-menu {
     display: flex;
     flex-direction: row;
@@ -28,13 +30,15 @@
     padding: 0;
     display: grid;
     gap:10px;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:repeat(7,1fr);
 }
 
 
 .nav-menu li {
     list-style: none;
     text-align: center;
+    margin: 0;
+    padding: 0;
     
 }
 .nav-menu a {
@@ -44,6 +48,9 @@
     font-size: 25px;
     transition: color 0.3s;
     align-items: center;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
 }
 .nav-menu a:hover{
     color:#3785c9;
@@ -71,3 +78,9 @@ font-size: 20px;
     margin-bottom: 20px;
 }
  }  
+ @media (max-width:1111px){
+   
+    .nav-menu a{
+        white-space:normal;
+    }
+ }

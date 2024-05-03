@@ -53,7 +53,7 @@ const Header = () => {
     <li><a href="#info" onClick={(e) => smoothScrollToSection(e, 'info')}>Info</a></li>
     <li><a href="#our-team" onClick={(e) => smoothScrollToSection(e, 'our-team')}>Our Team</a></li>
     <li><a href="#contact-us" onClick={(e) => smoothScrollToSection(e, 'contact-us')}>Contact Us</a></li>
-    <li><a href="https://bits-blockchain.notion.site/BITS-Blockchain-Development-Task-1-Frontend-cc11f0969ee84daa8c8df4b1eb780692">Learning Resources</a></li>
+    <li><a href="https://www.notion.so/bitsblockchain/Resources-for-blockchain-enthusiasts-d69a20cf5402406cb709dfabe4150c87">Learning Resources</a></li>
     <li>
         <a>
         <select onChange={handleChange}>
@@ -61,7 +61,7 @@ const Header = () => {
             <option value="https://superteam.fun/">SuperTeam</option>
             <option value="https://jobs.solana.com/jobs">Solana</option>
             <option value="https://polygon.technology/ecosystem-jobs">Polygon</option>
-            <option value="https://web3.career/">Web3</option>
+            <option value="https://web3.career/">Web3 Jobs</option>
             <option value="https://code4rena.com">Bug Bounties</option>
         </select>
         </a>
@@ -86,7 +86,7 @@ const Header = () => {
                         <li><a href="#info"  onClick={(e) => smoothScrollToSection(e, 'info')}>Info</a></li>
                         <li><a href="#our-team" onClick={(e) => smoothScrollToSection(e, 'our-team')}>Our Team</a></li>
                         <li><a href="#contact-us"  onClick={(e) => smoothScrollToSection(e, 'contact-us')}>Contact Us</a></li>
-                        <li><a href="https://bits-blockchain.notion.site/BITS-Blockchain-Development-Task-1-Frontend-cc11f0969ee84daa8c8df4b1eb780692">Learning Resources</a></li>
+                        <li><a href="https://www.notion.so/bitsblockchain/Resources-for-blockchain-enthusiasts-d69a20cf5402406cb709dfabe4150c87">Learning Resources</a></li>
     <li>
         <a>
         <select onChange={handleChange}>
@@ -94,7 +94,7 @@ const Header = () => {
             <option value="https://superteam.fun/">SuperTeam</option>
             <option value="https://jobs.solana.com/jobs">Solana</option>
             <option value="https://polygon.technology/ecosystem-jobs">Polygon</option>
-            <option value="https://web3.career/">Web3</option>
+            <option value="https://web3.career/">Web3 Jobs</option>
             <option value="https://code4rena.com">Bug Bounties</option>
         </select>
         </a>

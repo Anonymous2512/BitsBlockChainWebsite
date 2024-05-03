@@ -124,16 +124,6 @@ const TeamMembers = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
   },
   {
-    name: "Shrayash",
-    LinkedIn:
-      "https://www.linkedin.com/in/shrayash-barnwal-aab29128a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    image: "../../images/shrayash.jpg",
-    Github: "http://github.com/shrayash25",
-    position: "Development Team",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
-  },
-  {
     name: "Sanchit",
     LinkedIn:
       "https://www.linkedin.com/in/sanchit-goyal-6570a1282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -152,6 +142,16 @@ const TeamMembers = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
   },
+  {
+    name: "Shrayash",
+    LinkedIn:
+      "https://www.linkedin.com/in/shrayash-barnwal-aab29128a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    image: "../../images/shrayash.jpg",
+    Github: "http://github.com/shrayash25",
+    position: "Development Team",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
+  }
 ];
 
 export default TeamMembers;
